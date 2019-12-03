@@ -26,7 +26,7 @@ class QuotesSpider(scrapy.Spider):
                 # item['contact'] = mytext.css('.epi-fontLg , .bwalignc b ::text').get()
                 # item['author'] = mytext.css('blockquote+ p , .epi-fontLg , .bwalignc b ::text').get()
             # print(item)
-            item['websiteContent'] = responseexpecteddata.get()+' this is testing for diffrance check'
+            item['websiteContent'] = responseexpecteddata.get()#+' this is testing for diffrance check'
             item['website'] = response.url
             item['date'] = datetime.now()
             yield item 
