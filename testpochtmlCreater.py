@@ -41,7 +41,7 @@ for num,myweb in enumerate(outWebsites):
     message+="""<!DOCTYPE html> <html> <head> <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script> 
         <meta name="viewport" content="width=device-width, initial-scale=1"/> <style> * { box-sizing: border-box; } /* Create two equal columns that floats next to each other */ .column { float: left; width: 50%; padding: 10px; # height: 100%; /* Should be removed. Only for demonstration */ 
 border: 1px solid #FFFFFF; } /* Clear floats after the columns */ .row:after { content: ""; display: table; clear: both; } .button{ padding: 10px; position: fixed; top: 10px; float: right; background-color: red; color: #fff; font-weight: bold; right: 17px; }
-.flex-container { display: flex; background-color: #f1f1f1; } .flex-container > div { background-color: #687f96; color: white; width: 50%; margin: 10px; text-align: center;  font-size: 20px; }
+.flex-container { display: flex; background-color: #f1f1f1; } .flex-container > div { background-color: #827d7d; color: white; width: 50%; margin: 10px; text-align: center;  font-size: 20px; }
  </style>   </head> <body> <div class="row">
          <script type="text/javascript">
             var i=0;
